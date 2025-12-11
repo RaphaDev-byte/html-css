@@ -1,0 +1,44 @@
+Modelos de caixas
+
+height = altura
+width = largura
+border = linha que circunda seu conteudo
+
+padding = cria espaco entre o conteudo e a borda
+margin = cria um espaco da borda para fora 
+outline = tracejado fora da borda
+
+tipos de caixas
+
+box-level
+    sempre se inicial numa linha nova, sempre ocupa a largura total da tela. ex: <div>
+
+inline-level
+    nao inicial uma nova linha, continua de onde parou o elemento e ocupa apenas o tamanho do conteudo dentro dele. ex: <span>
+
+        user agent = navegador
+
+        usar dev tools para praticar, elas ajudam a entender como as coisas funcionam na pratica.
+
+        margin:auto = se for uma caixa fica no meio da tela
+
+        outline = tracejado dentro da margin
+
+        é possivel simplificar:
+        -padding
+        -border
+        -margin
+        -outline
+         com shorthands
+
+        alguns usam sentido do relogio
+         ex:
+
+         border: 10px solid dark;
+
+         padding: 10px 10px 10px 10px -sentido relogio;
+         
+         margin: 10px 10px 10px 10px -sentido relogio;
+
+         outline: 5px solid red
+
