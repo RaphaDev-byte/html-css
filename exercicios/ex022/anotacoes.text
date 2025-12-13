@@ -12,3 +12,10 @@ repeat:;
 no-repeat:;
 repeat-x:;
 repeat-Y:;
+
+
+background-position: decide a posiçao de origem do background-image;
+
+background-position: (coluna) (linha);
+
+background-position é o ponto de ancoragem;
