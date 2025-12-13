@@ -1,1 +1,14 @@
 background-image:url(caminho do arquivo) colocar imagens de fundo no site;
+
+background-size: configura o tamanho do baclground-image;
+
+sempre acontece repetiçao da imagem com o background-image por padrao;
+
+background-repeat:altera a repetiçao da imagem do background-image:
+
+propriedades do background-repeat:
+
+repeat:;
+no-repeat:;
+repeat-x:;
+repeat-Y:;
