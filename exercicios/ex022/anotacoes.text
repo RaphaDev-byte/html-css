@@ -24,3 +24,14 @@ background-size:
 auto:navegador se vira;
 contain: 100% da imagem;
 cover: ocupa 100% com corte pra caber no navegador;
+
+
+background-attachment:;
+
+
+
+
+
+shorthand background:
+
+color > image > position > repeat > [size] > attachment
