@@ -35,3 +35,16 @@ background-attachment:;
 shorthand background:
 
 color > image > position > repeat > [size] > attachment
+
+
+
+
+centralizaçao vertical de caixas
+
+margim só serve pra alinhamento horizontal;
+todo box de caixa é por padrao relative;
+Ao colocar posiciosamento absoluto ao objeto dentro de uma caixa relativa é possivel confugurar left e top;
+
+transform é mexer na caixa aplicando alguma alteraçao;
+
+left e top nao é o suficiente pra centralizar a box no container, é necessario usar o transform:translate para pegar o ponto base e centraliza-lo;
