@@ -19,3 +19,8 @@ background-position: decide a posiçao de origem do background-image;
 background-position: (coluna) (linha);
 
 background-position é o ponto de ancoragem;
+
+background-size: 
+auto:navegador se vira;
+contain: 100% da imagem;
+cover: ocupa 100% com corte pra caber no navegador;
