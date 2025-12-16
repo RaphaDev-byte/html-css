@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 400px;
+            font-weight: bold;
+        }
+        
+        tr.linha{
+            background-color: gray;
+        }
+
+
+        td{
+            border: 2px solid black;
+            padding: 8px;
+        }
+
+        td.dado{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>tabelas no html</h1>
+    <table>
+        <tr>
+            <td>A1</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+            <td>D2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+            <td>D3</td>
+        </tr>
+        <tr>
+            <td>A1</td>
+            <td>B2</td>
+            <td>C3</td>
+            <td class="dado">D4</td>
+        </tr>
+    </table>
+</body>
+</html>
