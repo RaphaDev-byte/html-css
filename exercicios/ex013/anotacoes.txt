@@ -1,0 +1,1 @@
+backgrounf-image:linear-gradient(to right, #ff7e5f, #feb47b) aplica efeito gradiente no background-image

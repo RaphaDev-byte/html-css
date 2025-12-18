@@ -14,7 +14,7 @@ box-level
     sempre se inicial numa linha nova, sempre ocupa a largura total da tela. ex: <div>
 
 inline-level
-    nao inicial uma nova linha, continua de onde parou o elemento e ocupa apenas o tamanho do conteudo dentro dele. ex: <span>
+    nao inicial uma nova linha, continua de onde parou o elemento e ocupa apenas o tamanho do conteudo dentro dele. ex: <span>, <a>
 
         user agent = navegador
 

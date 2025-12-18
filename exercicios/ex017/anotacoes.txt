@@ -1,0 +1,6 @@
+text-align: define onde o texto ficara no box;
+
+center:centro
+right: direita;
+etc...
+justify: ver depois

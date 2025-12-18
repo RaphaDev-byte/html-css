@@ -1,0 +1,2 @@
+vertical-align: alinha nos trechos verticais
+text-align: alinha nos textos horizontais
