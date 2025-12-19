@@ -1,2 +1,15 @@
 vertical-align: alinha nos trechos verticais
 text-align: alinha nos textos horizontais
+
+
+cowspan: celula ocupa x espacos de coluna;
+rowspan: celula ocupa x espaco de linha;
+
+
+colgroup
+         col
+
+serve para pegar uma coluna inteira para aplicar algo
+
+
+tabelas responsivas:
