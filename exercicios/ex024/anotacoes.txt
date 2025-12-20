@@ -1,0 +1,8 @@
+iframe: é preciso saber usar os iframes na situaçao certa, ele tem algumas coisas delicadas como as tabelas;
+
+ex de iframe: <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe>;
+
+existem sites que nao permitem que sejam colocados em iframes;
+
+tamanho padrao do iframe é 300x150;
+scrolling é um parametro que nao aparece por padrao no vscode , mais existe, ele define se sera possivel rolar ou nao, mesmo se colocar "no" em alguns navegadores ainda funciona a rolagem do conteudo do iframe;
