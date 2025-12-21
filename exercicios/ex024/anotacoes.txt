@@ -6,3 +6,23 @@ existem sites que nao permitem que sejam colocados em iframes;
 
 tamanho padrao do iframe é 300x150;
 scrolling é um parametro que nao aparece por padrao no vscode , mais existe, ele define se sera possivel rolar ou nao, mesmo se colocar "no" em alguns navegadores ainda funciona a rolagem do conteudo do iframe;
+
+
+
+srcdoc: é possivel colocar tags de html dentro do iframe, olhe o iframe003 para ver exemplo;
+
+
+nao confundir frame com iframe;
+
+o bot do google pode ter dificuldade em analisar o iframe como tambem leitores de tela, oque pode afetar a usabilidade;
+
+iframe tem uns problemas de segurança como a injeçao de sites maliciosos;
+
+<iframe src="paginas-extras/pag004.html" sandbox="sandbox" referrerpolicy="no-referrer">Seu navegador não é compativel</iframe>    o sandbox protege em relaçao a roubo de dados; ja o referrerpolicy="no-referrer" inpede do site dentro do iframe pegue dados do usuario;
+
+
+sandbox="allow-same-origin..." é possivel configurar o sandbox para que algo seguro funcione;
+
+sandbox é importante para a seguranca do iframe e é preciso tomar cuidado ao colocar site suspeitos dentro do iframe dentro do site. 
+ 
+é possivel o iframe carregar videos, mapas e documentos 
