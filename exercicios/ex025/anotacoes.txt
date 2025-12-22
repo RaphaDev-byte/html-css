@@ -26,3 +26,17 @@ para realmente tornar seguro e proteger os dados é preciso criptografar se apro
 get é util para quando os dados nao sao sensiveis. quando usar o get so pode enviar ate 3000 bytes, oque é aproximadamente 3000 letras.
 
 https é necessario para proteger dados. estudar para reforcar seguranca.
+
+atributos:
+required torna o campo obrigatorio a ser preenchido.
+
+minlenght faz com que o campo tenha um minimo de letras. 
+
+maxlenght faz com que tenha no max x de letras.
+
+size faz a caixa ficar de determinado tamanho.
+
+placeholder faz aparecer um texto dentro da caixa.
+
+autocomplete off ou on no form desliga e liga as sugestoes. autocomplete tambem fica dentro dos inputs para o navegador saber com oque esta lidando para dar sugestao seja de senha, usuario e outros.
+
