@@ -1,0 +1,28 @@
+
+o form precisa de um input para receber os dados.
+
+o form precisa ter um action para ele ser enviado para o servidor.
+
+identificar os inputs é muito importante para as linguagens. name é mais util para html e php e id mais util para javascript.
+
+nao se faz formulario sem relacionar o label ao seu elemento pois dificulta o navegador de identificar.
+
+o label é muito importante.
+
+quando o formulario é enviado a url fica da seguinte forma:
+
+/exercicios/ex025/cadastro.php?nome=batata&sobrenome=raiz
+
+a ? divide oque é a url e os parametros extras que foram enviados.
+
+existem dois metodos para envio de formulario.
+por padrao o form é get.
+mas tambem tem o post.
+
+no caso do post os parametros nao ficam na cara do usuario mas é possivel ver atraves do inspecionar.
+
+para realmente tornar seguro e proteger os dados é preciso criptografar se aprofundar em segurança.
+
+get é util para quando os dados nao sao sensiveis. quando usar o get so pode enviar ate 3000 bytes, oque é aproximadamente 3000 letras.
+
+https é necessario para proteger dados. estudar para reforcar seguranca.
