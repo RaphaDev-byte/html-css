@@ -54,3 +54,6 @@ a tag FIELSET agrupa os campos e legend coloca uma legenda, olhar form004.
 inputs radio com o mesmo name so permitem que um deles sejam selecionados por exemplo masculino ou feminino, olhar o form005, colocar checked como atributo no input ja deixa marcado.
 
 quando usar o controle de envio de arquivo so pode usar o metodo POST.
+
+
+select é outro tipo de campo onde voce seleciona, dentro existem os options onde podem ser agrupados com o optgroup.
