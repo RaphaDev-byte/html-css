@@ -40,3 +40,5 @@ placeholder faz aparecer um texto dentro da caixa.
 
 autocomplete off ou on no form desliga e liga as sugestoes. autocomplete tambem fica dentro dos inputs para o navegador saber com oque esta lidando para dar sugestao seja de senha, usuario e outros.
 
+
+o type = number so aceita numeros e tem os atributos min, max que definem os numeros min e max ex:0 a 10 e step decide o espacamento entre os valores. por exemplo 0.5
