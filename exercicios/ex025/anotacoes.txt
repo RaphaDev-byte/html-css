@@ -42,3 +42,15 @@ autocomplete off ou on no form desliga e liga as sugestoes. autocomplete tambem 
 
 
 o type = number so aceita numeros e tem os atributos min, max que definem os numeros min e max ex:0 a 10 e step decide o espacamento entre os valores. por exemplo 0.5
+
+vericar se o navegador é compativel com os atributos do html.
+
+estudar expressoes regurares, reGex.
+
+pattern cria padroes a serem seguidos por exemplo para nao faltar um numero no telefone.
+
+a tag FIELSET agrupa os campos e legend coloca uma legenda, olhar form004.
+
+inputs radio com o mesmo name so permitem que um deles sejam selecionados por exemplo masculino ou feminino, olhar o form005, colocar checked como atributo no input ja deixa marcado.
+
+quando usar o controle de envio de arquivo so pode usar o metodo POST.
