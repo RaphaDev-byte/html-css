@@ -57,3 +57,5 @@ quando usar o controle de envio de arquivo so pode usar o metodo POST.
 
 
 select é outro tipo de campo onde voce seleciona, dentro existem os options onde podem ser agrupados com o optgroup.
+
+output é apenas para mostrar coisas na tela, nao é para enviar dados.
