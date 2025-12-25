@@ -1,1 +1,27 @@
- 
+Media Queries. 
+
+para diferentes telas ou formatos é preciso configuracoes de estilo para melhor desingn e aproveitamento do conteudo, pra isso servem as medias queries.
+
+é bom criar arquivos css para cada formato, por exemplo um para tela de computador, outra pra celular e impressao e outros.
+
+exemplo:
+
+<link rel="stylesheet" href="estilos/style.css" media="screen">
+    <link rel="stylesheet" href="estilos/impressora.css" media="print">
+
+    aqui tem um estilo para a tela e outro para impressao.
+
+    Media Query é igual a Media Type mais Media Feature
+
+
+
+
+
+    orientaçao, landscape(aparelho deitado, largura maior que a altura) e portrait(aparelho em pé, altura maior que a largura)
+
+
+    quando eu uso o media eu posso informar medias types e medias features.
+    
+    ex:
+    <link rel="stylesheet" href="retrato.css" media="screen and (orientation:portrait)">
+    <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation:landscape)">
