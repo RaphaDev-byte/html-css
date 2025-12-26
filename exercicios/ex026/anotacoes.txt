@@ -25,3 +25,8 @@ exemplo:
     ex:
     <link rel="stylesheet" href="retrato.css" media="screen and (orientation:portrait)">
     <link rel="stylesheet" href="estilos/paisagem.css" media="screen and (orientation:landscape)">
+
+
+
+    é possivel unificar todos os estilos na propria pagina do html, mas nao é recomendavel para projetos grandes ja que fica um pouco baguncado. olhar o index.html da pasta mq003 
+

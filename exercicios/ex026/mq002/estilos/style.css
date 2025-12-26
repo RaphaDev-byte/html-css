@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(46, 46, 238);
+}
+
+h1{
+    color: white;
+}
