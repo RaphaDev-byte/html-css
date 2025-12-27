@@ -42,3 +42,7 @@ exemplo:
 
     os mecanismos do google dao mais atençao para sites que tem essas caracteristicas acima. Sò vantagem!
 
+
+    criaçao do mobile First no mq004, olhar o tela.css para informacoes.
+
+    com o passar do tempo as telas e suas resolucoes vao mudando, por isso é bom ficar ligado nos mais comuns para os breakpoints.
