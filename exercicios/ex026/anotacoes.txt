@@ -30,3 +30,15 @@ exemplo:
 
     é possivel unificar todos os estilos na propria pagina do html, mas nao é recomendavel para projetos grandes ja que fica um pouco baguncado. olhar o index.html da pasta mq003 
 
+
+
+    First mobile.
+
+    ha muito tempo, era normal primeira ser feito o site focado no desktop e depois de finalizado cortavam coisas e retiravam coisas para a versao mobile, oque resultava em uma experiencia nao tao boa para o usuario mobile, ate que em 2009 um cara que trabalhava na Yahoo criou a ideia de faazer primeiro focado pro mobile e depois ia pro desktop, e no fim essa era e é um otimo jeito pelos principais motivos:
+
+    performace: site focado primeiro em ser leve e eficiente, dando uma melhor acessibilidade para quem nao tem interet mais precaria.
+
+    melhor experiencia do usuario e menos trabalho: nao precisavam cortar ou arrancar partes do codigo, era so implementar coisas a mais para o desktop e pequenas alteracoes.
+
+    os mecanismos do google dao mais atençao para sites que tem essas caracteristicas acima. Sò vantagem!
+
