@@ -59,6 +59,11 @@ main{
     background-color: white;
     text-indent: 20px; 
     padding: 20px;
+    line-height: 1.2em;
+}
+
+main > article > h2{
+    padding-bottom: 20px;
 }
 
 
