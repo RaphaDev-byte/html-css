@@ -11,3 +11,7 @@ ao ser criado um flex-direction e definir como por exemplo row, eixos(axis) sao 
 
 
 flex-flow: flex-direction + flex-wrap
+
+justify-content: mexe na posiçao dos itens no eixo principal, alterando a posiçao dos itens dependendo requerido.
+
+align itens: mexe na posiçao dos itens no eixo trnasversal. o padrao do align itens é strech(esticar).
