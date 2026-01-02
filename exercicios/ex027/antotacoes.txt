@@ -15,3 +15,13 @@ flex-flow: flex-direction + flex-wrap
 justify-content: mexe na posiçao dos itens no eixo principal, alterando a posiçao dos itens dependendo requerido.
 
 align itens: mexe na posiçao dos itens no eixo trnasversal. o padrao do align itens é strech(esticar).
+
+justify-content alinha o itens no eixo principal.
+
+align-itens alinha os itens no eixo transversal.
+
+align-content alinha os elementos no eixo transversal quando estao enpacotados(wrap).
+
+align-content tem por padrao o stretch(esticar), pega toda a area disponivel e divide pelo numero dependendo do flex-direction e estica os itens.
+
+align-content é para quando esta usando o wrap.
