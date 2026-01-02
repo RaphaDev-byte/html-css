@@ -1,0 +1,13 @@
+div.container{
+    display: flex; /*torna flexivel os item dentro*/
+    background-color: aqua;
+    
+}
+
+div.item {
+    background-color: yellow;
+    border: 1px solid;
+    text-align: center;
+
+    flex: auto; /*faz com que os itens se adaptem para a preencherem a largura total do container*/
+}
