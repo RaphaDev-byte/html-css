@@ -25,3 +25,15 @@ align-content alinha os elementos no eixo transversal quando estao enpacotados(w
 align-content tem por padrao o stretch(esticar), pega toda a area disponivel e divide pelo numero dependendo do flex-direction e estica os itens.
 
 align-content é para quando esta usando o wrap.
+
+
+
+
+propriedades dos itens.
+
+todo item em flexbox vai ter order:0.
+
+é possivel modificar a ordem de exibiçao mudando o numero order, ele seram reorganizados para que fiquem de ordem crescente.
+
+
+align-self: define a posiçao do item em relaçao ao cross-axis. é meio que a exentensao do align-itens, é direcionado para os filhos e nao para o pai, caso queira mudar a propriedade de um filho(ou mais) apenas. 
