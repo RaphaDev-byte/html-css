@@ -1,0 +1,14 @@
+div.container{
+    display: flex; /*torna flexivel os item dentro*/
+    background-color: aqua;
+    flex-flow: row wrap;
+    
+}
+
+div.item {
+    background-color: yellow;
+    border: 1px solid;
+    text-align: center;
+    flex-basis: 150px;
+    
+}

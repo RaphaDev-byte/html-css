@@ -37,3 +37,14 @@ todo item em flexbox vai ter order:0.
 
 
 align-self: define a posiçao do item em relaçao ao cross-axis. é meio que a exentensao do align-itens, é direcionado para os filhos e nao para o pai, caso queira mudar a propriedade de um filho(ou mais) apenas. 
+
+flex-basis: mexe no tamanho do conteudo no item eixo principal,tem auto por padrao. se colocar um numero fixo por exemplo 200px e comecar a encolher o container, o tamanho do item ira diminuir mesmo tendo o flex-basis fixo.
+
+
+flex-grow: crescer; 0 por padrao.
+flex-shrink: encolher; 1 por padrao.
+
+flex-grow 0 nao pode crescer.
+flex-shrink 1 pode encolher.
+
+esses dois sao oque decidem se o item vai poder diminuir ou crescer.
