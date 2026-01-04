@@ -1,0 +1,29 @@
+div.container{
+    display: flex; /*torna flexivel os item dentro*/
+    background-color: aqua;
+    flex-flow: column nowrap;
+    height: 400px;
+}
+
+div.item {
+    background-color: yellow;
+    border: 1px solid;
+    text-align: center;
+    flex-basis: 100px;
+
+}
+
+div#cxA {
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+div#cxB {
+    flex-shrink: 2;
+    flex-grow: 2;
+}
+
+div#cxC {
+    flex-shrink: 3;
+    flex-grow: 1;
+}

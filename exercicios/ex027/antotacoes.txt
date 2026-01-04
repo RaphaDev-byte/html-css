@@ -44,7 +44,19 @@ flex-basis: mexe no tamanho do conteudo no item eixo principal,tem auto por padr
 flex-grow: crescer; 0 por padrao.
 flex-shrink: encolher; 1 por padrao.
 
-flex-grow 0 nao pode crescer.
-flex-shrink 1 pode encolher.
+flex-grow 0 nao pode crescer, 1 pode crescer, 2 cresce o dobro em relaçao ao 1.
 
-esses dois sao oque decidem se o item vai poder diminuir ou crescer.
+
+flex-shrink 0 nao encolher, 1 pode encolher, 2 cresce o dobro em relaçao ao 1.
+
+
+flex: flex-grow + flex-shrink + flex-basis;
+
+
+flex: initial ; configuraçao padrao.
+
+flex: none; nada flexivel, 0 0 auto.
+
+flex: auto; 1 1 auto. bem flexivel.
+
+colocar flex: qualquer numero; altera so o grow e os outros continuam padrao.
