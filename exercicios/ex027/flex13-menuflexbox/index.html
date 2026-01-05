@@ -32,12 +32,15 @@
     <script>
         function burger(){
             menu = document.getElementById("imenu");
+            hamburger = document.getElementById("iburger");
             
             
             if(menu.style.display == 'flex'){
                 menu.style.display = 'none';
+                hamburger.style.boxShadow = 'none';
             }else{
                 menu.style.display = 'flex';
+                hamburger.style.boxShadow = '0px 5px 5px rgba(0, 0, 0, 0.384)';
             }
             
     
@@ -47,10 +50,13 @@
             menu = document.getElementById("imenu");
             
             if(window.innerWidth >= 600){
-                menu.style.display ='block'
+                menu.style.display ='flex'
             } else {
                 menu.style.display = 'none'
             }
+
+            window.addEventListener('resize', mudouTamanho);
+            window.addEventListener('load', mudouTamanho);
         }
     </script>
 </body>
