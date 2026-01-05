@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightcoral;
+}
+
+header, header > nav {
+    flex-flow: column nowrap;
+
+}
+
+header > h1 {
+    flex-basis: 50px;
+    
+
+}
+
+header > span {
+    display: block;
+    border: 1px dotted;
+    color: black;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+
+}
+
+header > nav {
+    display: none;
+}
+
+header > nav > a {
+    width: 90vw;
+
+}

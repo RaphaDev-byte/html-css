@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu fexbox</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 580px)">
+</head>
+<body onsize="mudouTamanho()">
+    
+    <header>
+        <h1>meu site</h1>
+        <span id="iburger" onclick="burger()">icone</span>
+        <nav id="imenu">    
+            <a href="#">opcao 1</a>
+            <a href="#">opcao 2</a>
+            <a href="#">opcao 3</a>
+            <a href="#">opcao 4</a>
+            <a href="#">opcao 5</a>
+            <a href="#">opcao 6</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>teste de flexbox</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae aperiam suscipit, placeat quia eaque officiis incidunt hic ab asperiores unde necessitatibus amet laudantium culpa iste sit aliquid facere illo nulla.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil laudantium eaque dolore, odio harum quas, voluptates non corrupti nam, hic nulla nostrum distinctio facilis vitae. Distinctio repellendus sit laborum earum?</p>
+    </main>
+
+
+    <script>
+        function burger(){
+            menu = document.getElementById("imenu");
+            
+            
+            if(menu.style.display == 'flex'){
+                menu.style.display = 'none';
+            }else{
+                menu.style.display = 'flex';
+            }
+            
+    
+        }
+
+        function mudouTamanho(){
+            menu = document.getElementById("imenu");
+            
+            if(window.innerWidth >= 600){
+                menu.style.display ='block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
