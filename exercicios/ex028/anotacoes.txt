@@ -30,3 +30,26 @@ div.container{
     grid-template-rows: 100px 100px 100px;
     gap:20px;
 }
+
+bizu:
+align->eixo vertical.
+justify->eixo horizontal.
+
+align-items; 
+justify-items; 
+align-content;
+justify-content;
+
+ex:
+div.container{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    gap:20px;
+
+    align-items: stretch; valor padrao.
+    justify-items: stretch; valor padrao.
+
+    justify-content: stretch; valor padrao.
+    align-content: stretch; valor padrao.
+}
