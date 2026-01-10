@@ -1,0 +1,16 @@
+anamtomia de um grid
+
+o grid se baseia no container;
+a junçao das areas sao chamadas de grid item(no caso os quadrados);
+quando tenho juncao de quadrados que vao de ponta a outra da grade sao chamada de grid track;
+
+
+row track: linha de grade
+column track: coluna de grade
+
+
+as linhas que formas a grid sao chamadas de grid lines e sao numeradas da esquerda para direita e de cima para baixo.
+
+as linhas tambem tem uma ordem negativa que comeca da ultima linha da ordem, elas comecam como -1.
+
+grip gap: espaçamento entre os quadrados da grid.
