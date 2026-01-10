@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        div.container{
+            border: 3px solid blue;
+            
+            display: grid;
+            grid-template-rows: repeat(3,80px);
+            grid-template-columns: 100px 40% 1fr 2fr;
+
+            grid-auto-rows: 120px;
+            grid-auto-columns: 80px;
+            
+            grid-auto-flow: row; /*decide pra que lado vai ser adicionado o item, se é row ou column*/
+
+
+
+            gap:10px;
+            
+            /*align-items: start;
+            justify-items: center;*/
+            
+
+            /*align-content:space-between;
+            justify-content: normal;*/
+            
+            
+        }
+        div.item{
+            border: 3px solid red;
+            padding: 5px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">G</div>
+        <div class="item">H</div>
+        <div class="item">I</div>
+        <div class="item">J</div>
+        <div class="item">K</div>
+        <div class="item">L</div>
+    </div>
+</body>
+</html>

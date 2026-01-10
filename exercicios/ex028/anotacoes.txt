@@ -58,11 +58,11 @@ grid-auto-row; faz com que o padrao das linhas seja de determinado tamanho.
 
 grid-auto-columns; mesma coisa que o de cima so que com colunas.
 
-place-items; shrrthand para o align e justify dos itemns.align > content.
+place-items; shrrthand para o align e justify dos itemns. align > content.
 
 place-content; mesma coisa que o de cima so que com content. align > content.
 
-grid-template; linha/coluna.  shorthand do grid-auto-rows e grid-auto-colums.
+grid-template; linha/coluna.  shorthand do grid-rows e grid-colums.
 
 ex:
 div.container{
@@ -71,4 +71,30 @@ div.container{
     grid-template-rows: 100px 100px 100px;
     gap:20px;
 
+    grid-template: 100px 100px 100px/ auto auto auto;
+
+
 }
+
+
+funçao repeat();
+unidades de fraçao;
+
+ex:
+div.container{
+    display:grid;
+    grid-template-columns:repeat(auto); -> uso do repeat 
+    grid-template-rows: repeat(100px); -> uso do repeat
+
+    grid-template:repeat(3,100px) / repeat(3, auto) -> shorthand
+
+    gap:20px;
+
+
+}
+
+grid-template-coluns: 1fr 1fr 1fr; usar fr no lugar de auto ja que é possivel fazer com que um item ocupe o dobro(com fr2) do container, deixando mais facil de trabalhar.
+
+grid-template-columns: 100px 20% 1fr 1fr; é possivel usar varios tipos de valores, mas é preciso saber como se comportam.
+
+ nota:o fr calcula o espaco que sobra no container. 
