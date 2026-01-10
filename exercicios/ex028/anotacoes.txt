@@ -1,4 +1,4 @@
-anamtomia de um grid
+anatomia de um grid:
 
 o grid se baseia no container;
 a junçao das areas sao chamadas de grid item(no caso os quadrados);
@@ -9,8 +9,24 @@ row track: linha de grade
 column track: coluna de grade
 
 
-as linhas que formas a grid sao chamadas de grid lines e sao numeradas da esquerda para direita e de cima para baixo.
+as linhas que formam a grid sao chamadas de grid lines e sao numeradas da esquerda para direita e de cima para baixo.
 
-as linhas tambem tem uma ordem negativa que comeca da ultima linha da ordem, elas comecam como -1.
+as linhas que formam a grid tambem tem uma ordem negativa que comeca da ultima linha da ordem, elas comecam como -1.
 
 grip gap: espaçamento entre os quadrados da grid.
+
+
+Propriedades do container do grid layout:
+
+>display:grid;
+>grid-template-columns;
+>grid-template-rows;
+>gap;
+
+ex:
+div.container{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    gap:20px;
+}
