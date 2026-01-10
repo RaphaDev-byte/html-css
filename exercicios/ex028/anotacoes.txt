@@ -53,3 +53,22 @@ div.container{
     justify-content: stretch; valor padrao.
     align-content: stretch; valor padrao.
 }
+
+grid-auto-row; faz com que o padrao das linhas seja de determinado tamanho.
+
+grid-auto-columns; mesma coisa que o de cima so que com colunas.
+
+place-items; shrrthand para o align e justify dos itemns.align > content.
+
+place-content; mesma coisa que o de cima so que com content. align > content.
+
+grid-template; linha/coluna.  shorthand do grid-auto-rows e grid-auto-colums.
+
+ex:
+div.container{
+    display:grid;
+    grid-template-columns:auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    gap:20px;
+
+}
